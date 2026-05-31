@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophie and Ry's Wedding</title>
+    <style>
+        /* Welcome to 1998! */
+        body {
+            background-color: #000080; /* Classic Navy Blue Background */
+            color: #FFFF00; /* Blinding Yellow Text */
+            font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #FF00FF; /* Hot Magenta */
+            font-size: 36px;
+        }
+
+        /* Modern browsers killed the blink tag, so we recreate it with CSS */
+        .blink-text {
+            animation: blinker 0.8s linear infinite;
+            color: #00FF00; /* Neon Green */
+            font-size: 24px;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+
+        .venue-info {
+            font-size: 22px;
+            border: 3px dashed #FFFF00;
+            padding: 15px;
+            margin: 20px auto;
+            width: 60%;
+            background-color: #000000;
+        }
+
+        /* The clunkiest 90s button possible */
+        .rsvp-button {
+            background-color: #C0C0C0; /* Windows 95 Grey */
+            border-top: 4px solid #FFFFFF;
+            border-left: 4px solid #FFFFFF;
+            border-bottom: 4px solid #808080;
+            border-right: 4px solid #808080;
+            color: #000000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-size: 20px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .rsvp-button:active {
+            border-top: 4px solid #808080;
+            border-left: 4px solid #808080;
+            border-bottom: 4px solid #FFFFFF;
+            border-right: 4px solid #FFFFFF;
+        }
+
+        /* Tacky 3D Line */
+        hr {
+            border: 0;
+            height: 5px;
+            background-color: #FF00FF;
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .counter {
+            margin-top: 50px;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+    <marquee scrollamount="12" behavior="alternate">
+        <h1>~*~ SOPHIE AND RY'S WEDDING ~*~</h1>
+    </marquee>
+
+    <hr>
+
+    <div class="venue-info">
+        <p><strong>WHEN:</strong> 14th November 2026</p>
+        <p><strong>WHERE:</strong> Pollokshields Burgh Hall, Glasgow</p>
+    </div>
+
+    <p class="blink-text">Do you want to come?</p>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7-scvgIgO7zgRX_B9MLmZ5kB4CWPVGSuXd16l-OjdZsM8qg/viewform?usp=publish-editor" target="_blank" class="rsvp-button">
+        CLICK HERE TO RSVP!
+    </a>
+
+    <hr>
+
+    <marquee scrollamount="15" direction="right" style="color: #00FFFF;">
+        CAN'T WAIT TO SEE U THERE!!!
+    </marquee>
+
+    <div class="counter">
+        You are visitor number: <strong>[0][0][1][4][0][2]</strong><br>
+        <small>Best viewed in Netscape Navigator</small>
+    </div>
+
+</body>
+</html>
